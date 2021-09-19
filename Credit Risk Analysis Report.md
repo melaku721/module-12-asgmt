@@ -22,5 +22,5 @@ Applied a logistic Regration by using the imbalanced-learn library to compare th
 ## Summary
 As we have seen above the accurecy score for the model with oversamled data is higher and the precition for the "1" class(High_Risk loan) with oversampled data is much higher. And also the recall for the "1" class with the oversampled data is much higher. so that the model that used the oversample data is more accurate at predicting the healthy loan and the risky loan.
 
-As there is a credit risk classification because of the healthy loans easily outnumbered risky loans, the model used oversampling is balances and fix this problem.  
+As there is a credit risk classification because of the healthy loans easily outnumbered risky loans, the model used oversampling is balances and fix this problem. But while fixing this problem the model we used may increase the number of risky loans. This means we will have a high number of high-risk loan while identifying the credit worthiness of the borrowers. As a conclusion using oversampling for this model is not recommended.  
 
